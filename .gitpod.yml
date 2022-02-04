@@ -6,7 +6,4 @@ tasks:
       sudo apt-get install racket -y
       raco pkg install sicp
       raco pkg install --auto racket-langserver
-
-vscode:
-  extensions:
-    - evzen-wybitul.magic-racket
+      code --install-extension evzen-wybitul.magic-racket
