@@ -6,4 +6,5 @@
         "racket-langserver"
     ],
     "magicRacket.languageServer.enabled": false,
+    "workbench.colorTheme": "Default Light+",
 }
