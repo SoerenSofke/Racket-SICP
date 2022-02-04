@@ -1,0 +1,9 @@
+tasks:
+  - name: Install Dependencies
+    init: |
+      sudo add-apt-repository ppa:plt/racket -y
+      sudo apt-get update
+      sudo apt-get install racket -y
+      raco pkg install sicp
+      raco pkg install --auto racket-langserver
+      code --install-extension evzen-wybitul.magic-racket
