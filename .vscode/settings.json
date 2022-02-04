@@ -1,0 +1,9 @@
+{
+    "magicRacket.general.racketPath": "racket",
+    "magicRacket.languageServer.command": "racket",
+    "magicRacket.languageServer.arguments": [
+        "--lib",
+        "racket-langserver"
+    ],
+    "magicRacket.languageServer.enabled": false,
+}
